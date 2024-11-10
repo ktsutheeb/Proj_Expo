@@ -397,7 +397,8 @@ body{
     /* border: 5px solid red; */
     height: 35rem;
     border-radius: 5rem;
-    background-image: url(./images/lnm.jpg);
+    /* background-image: url(./images/lnm.jpg); */
+    background-image: url(./images/lnmi.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* opacity: 0.7; */

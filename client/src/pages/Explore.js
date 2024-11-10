@@ -7,7 +7,7 @@ export default function Explore(){
         <div className="explore">
             <div className="explore_contents">
             </div>
-            <div className="search_bar"></div>
+            <div className=""></div>
             <Domains />
             <Outlet />
         </div>

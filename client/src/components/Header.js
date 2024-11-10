@@ -22,11 +22,11 @@ const Header = () => {
 
             >Explore</NavLink>
 
-            <NavLink id='shift_nav2'
+            {/* <NavLink id='shift_nav2'
             to="/opportunities"
             className={({ isActive }) => (isActive ? 'active' : 'inactive')}
 
-            >Opportunities</NavLink>
+            >Opportunities</NavLink> */}
 
             <NavLink id='shift_nav' 
             to="/reach-out"

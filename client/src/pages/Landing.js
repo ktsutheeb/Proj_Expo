@@ -15,11 +15,11 @@ const Landing = () => {
               <div className='new_main'>
             <img className="logos" src={require('../logos.png')} alt='' />
           <div className="main-text">
-              <h1>ConnectLNM</h1>
-              <p id="landing-p-desk">Upskill By Harnessing the Power of Community!</p>
+              <h1>Welcome to Mentor Connect</h1>
+              <p id="landing-p-desk">Empowering Growth Through Professional Mentorship</p>
         </div>
     </div>
-    <p id="landing-p-mob">Upskill By Harnessing the Power of Community!</p>
+    <p id="landing-p-mob">Empowering Growth Through Professional Mentorship</p>
 
     
     </div> 
