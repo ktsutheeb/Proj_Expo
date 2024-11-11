@@ -1,0 +1,62 @@
+/* Wrapper for centering the login form */
+.loginWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Card styling */
+  .loginWrapper .card {
+    width: 600px;  /* Increased width for a wider card */
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Rounded corners */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+  
+  /* Title styling */
+  .loginWrapper .title {
+    text-align: center;
+    color: #132436;
+    margin-bottom: 1rem;
+  }
+  
+  /* Input label styling */
+  .loginWrapper .formLabel {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem; /* Space between label and input */
+  }
+  
+  /* Input field styling */
+  .loginWrapper .formControl {
+    height: 45px;  /* Reduced height for compact fields */
+    font-size: 1.2rem;
+    margin-bottom: 1rem;  /* Space between fields */
+  }
+  
+  /* Submit button styling */
+  .loginWrapper .submitButton {
+    font-size: 1.3rem;
+    width: 100%;
+    padding: 12px;  /* Padding for a larger button */
+    background-color: #120a2c; /* Dark blue */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effect */
+  }
+  
+  /* Hover effect for button */
+  .loginWrapper .submitButton:hover {
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  /* Adds shadow for pop-up effect */
+  }
+  

@@ -1,0 +1,88 @@
+/* Centering the container */
+.centerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    margin: 0;
+  }
+  
+  /* Card styling */
+  .card {
+    width: 400px;  /* Reduced width for a smaller card */
+    height: 600px; /* Reduced height for a compact card */
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Rounded corners */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content to the top */
+    overflow: hidden;
+  }
+  
+  /* Title styling */
+  .title {
+    text-align: center;
+    color: #0d0635; /* Dark blue color for title */
+    margin-bottom: 1 rem;
+  }
+  
+  /* Input label styling */
+  .formLabel {
+    font-size: 1 rem; /* Slightly smaller labels */
+  }
+  
+  /* Input field styling */
+  .formControl {
+    height: 45px;  /* Reduced height for compact fields */
+    font-size: 1 rem;
+    margin-bottom: 1 rem;
+  }
+  
+  
+  /* Submit button styling */
+  .submitButton {
+    font-size: 1.4rem;  /* Slightly larger text */
+    width: 100%;
+    background-color: #120a2c; /* Dark blue */
+    color: white;
+    border: none;
+    padding: 1px;  /* Increased padding for a larger button */
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 0.1rem; /* Reduced space below the button */
+    margin-top: 1.5rem; /* Added space above the button */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effect */
+  }
+  
+  
+  /* Hover effect */
+  .submitButton:hover {
+    transform: scale(1.1);  /* Slightly enlarge the button */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  /* Adds shadow for the pop-up effect */
+    background-color: #120a2c;  /* Keeps the background color same */
+  }
+  
+   
+  
+  /* Center the text in the footer */
+  .textCenter {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  /* Link styling */
+  .link {
+    color: #120a2c; /* Dark blue for the link */
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 0.1rem; /* Reduced space above the link */
+    margin-bottom: 1rem;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
