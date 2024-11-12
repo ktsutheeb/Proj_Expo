@@ -1,5 +1,6 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
+import "./Domain.css"
 
 export default function Domains(){
     return(

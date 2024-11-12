@@ -1,0 +1,45 @@
+/* Styling for the button */
+.social_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;/* LinkedIn blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the link inside the button */
+.social_btn a {
+    display: flex;
+    align-items: center;
+    color: white; /* Ensure text color is white */
+    text-decoration: none;
+}
+
+/* Styling for the LinkedIn icon */
+.social_logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px; /* Space between icon and text */
+}
+
+/* Styling for the text */
+.social_btn h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Hover and active effects */
+.social_btn:hover { /* Darker LinkedIn blue */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.social_btn:active {; /* Even darker blue on click */
+    transform: scale(0.95); /* Slightly shrink on click */
+}

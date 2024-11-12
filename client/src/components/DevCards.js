@@ -1,4 +1,5 @@
 import React from 'react'
+import "./social_btn.css"
 
 const DevCards = (props) => {
   return (
