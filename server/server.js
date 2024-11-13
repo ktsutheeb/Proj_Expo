@@ -403,7 +403,9 @@ app.use(cors());
 
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: 'https://mentor-connect-2.onrender.com' // Allow this specific origin
+}));
 app.use(express.json());
 
 // Connect to MongoDB
