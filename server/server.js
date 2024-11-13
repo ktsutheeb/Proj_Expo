@@ -443,7 +443,7 @@ mongoose.connect(process.env.MONGODB_URI)
 // Connect to MongoDB
 mongoose
   .connect(
-    "mongodb://localhost:27017/hi",
+    "mongodb+srv://sasikumari22aim:UsIZdZGHp9v1TM55@cluster0.nddjr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
     {
       useNewUrlParser: true,
       //useUnifiedTopology: true
