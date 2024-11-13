@@ -15,7 +15,7 @@ const Signup = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post('http://localhost:8000/register', { name, email, country, phone, password })
+      .post('https://mentor-connect-1.onrender.com/register', { name, email, country, phone, password })
       .then((result) => {
         console.log(result);
         navigate('/Login');

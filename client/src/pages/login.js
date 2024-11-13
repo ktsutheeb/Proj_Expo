@@ -12,7 +12,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post('http://localhost:8000/login', { email, password })
+      .post('https://mentor-connect-1.onrender.com/login', { email, password })
       .then((result) => {
         console.log(result);
         if (result.data === 'Success') {
