@@ -27,7 +27,7 @@ At our university, we've identified a significant gap between junior and senior/
 
 ## Tech Stack
 
-ConnectLNM is built using the following technologies:
+Mentor Connect is built using the following technologies:
 
 - **Frontend:** React
 - **CSS Frameworks:** TailwindCSS
@@ -36,14 +36,14 @@ ConnectLNM is built using the following technologies:
 
 ## Getting Started
 
-To run ConnectLNM locally, follow these steps:
+To run Mentor connect locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/ConnectLNM.git`
+1. Clone the repository: `git clone https://github.com/your-username/Mentor_connect.git`
 2. Navigate to the project directory: `cd ConnectLNM`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
 
-Visit [localhost:3000](http://localhost:3000) in your browser to explore ConnectLNM.
+Visit [localhost:3000](http://localhost:3000) in your browser to explore Mentor Connect.
 
 ## Contributing
 
