@@ -47,9 +47,5 @@ Visit [localhost:3000](http://localhost:3000) in your browser to explore Mentor 
 
 ## Contributing
 
-We welcome contributions from the community! If you'd like to contribute to ConnectLNM, please follow the standard contribution guidelines.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+We welcome contributions from the community! If you'd like to contribute to Mentor_connect, please follow the standard contribution guidelines.
 
