@@ -1,21 +1,19 @@
-# ConnectLNM
-A Platform that aims to streamline university networking by seamlessly connecting students with mentors. While this version is built in the MERN Stack, I have also built another version using NextJS and Typescript.
-Link to the NextJS Typescript version 
-https://github.com/sidxh/connect-nextjs
+# Mentor Connect
+A Platform that aims to streamline university networking by seamlessly connecting students with mentors. While this version is built in the MERN Stack.
 
 ![Landing Preview](https://i.postimg.cc/tJ2my26y/connectlnm.png)
 
 ConnectLNM is an online platform designed to bridge the gap between junior and senior/alumni students within our university. It serves as a dynamic directory that facilitates connections, enabling students to seek guidance and expertise from experienced mentors in various fields.
 
 ## Table of Contents
-- [Why ConnectLNM?](#why-connectlnm)
+- [Why Mentor Connect?](#why-mentorconnect)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Why ConnectLNM?
+## Why Mentor Connect?
 
 At our university, we've identified a significant gap between junior and senior/alumni students in terms of expertise and guidance. ConnectLNM aims to address this gap by providing a platform where students can easily connect with mentors who have valuable experience in their respective fields. Our goal is to foster a supportive community that promotes learning and growth for all.
 
