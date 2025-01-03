@@ -394,24 +394,26 @@ app.listen(port, () => {
 */
 const express = require("express");
 const mongoose = require("mongoose");
-const detailsModel = require('./models/User')
+const detailsModel = require('./models/User');
+const cors = require("cors");
+
 const app = express();
 const port = 8000;
 
-const cors = require('cors');
-app.use(cors());
+// CORS configuration
+const corsOptions = {
+  origin: "http://localhost:3000", // Allow requests from this origin
+  methods: ["GET", "POST", "PUT", "DELETE"], // Specify allowed methods
+  allowedHeaders: ["Content-Type", "Authorization"], // Specify allowed headers
+};
 
+app.use(cors()); // Apply CORS configuration
 
 // Middleware
-app.use(cors({
-  origin: 'https://mentor-connect-2.onrender.com' // Allow this specific origin
-}));
 app.use(express.json());
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGODB_URI)
-  .then(() => console.log('MongoDB connected'))
-  .catch(err => console.error('MongoDB connection error:', err));
+
 
   app.post('/login',(req,res)=>
       {
@@ -445,7 +447,7 @@ mongoose.connect(process.env.MONGODB_URI)
 // Connect to MongoDB
 mongoose
   .connect(
-    "mongodb+srv://sasikumari22aim:UsIZdZGHp9v1TM55@cluster0.nddjr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "mongodb://localhost:27017/hi",
     {
       useNewUrlParser: true,
       //useUnifiedTopology: true
