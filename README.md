@@ -1,7 +1,7 @@
 # Mentor Connect
 A Platform that aims to streamline university networking by seamlessly connecting students with mentors. While this version is built in the MERN Stack.
 
-![Landing Preview](https://i.postimg.cc/tJ2my26y/connectlnm.png)
+![Landing Preview]([https://i.postimg.cc/tJ2my26y/connectlnm.png](https://postimg.cc/t191qx1s))
 
 ConnectLNM is an online platform designed to bridge the gap between junior and senior/alumni students within our university. It serves as a dynamic directory that facilitates connections, enabling students to seek guidance and expertise from experienced mentors in various fields.
 
