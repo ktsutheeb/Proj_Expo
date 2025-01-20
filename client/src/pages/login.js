@@ -12,7 +12,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post('http://localhost:8000/login', { email, password },
+      .post('http://localhost:8000/login', { email, password }, //mongodb://localhost:27017/
         { headers: { 'Content-Type': 'application/json' } }
       )
       .then((result) => {

@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.use(cors({
-  origin: 'https://mentor-connect-2.onrender.com',
+  origin: 'mongodb://localhost:27017/', //mongodb://localhost:27017/  https://mentor-connect-2.onrender.com
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));

@@ -37,7 +37,7 @@ const CardsSet = () => {
     useEffect(() => {
       const fetchData = async () => {
         try {
-          const response = await axios.get(`https://connectlnm-backend.onrender.com/${category}`);
+          const response = await axios.get(`http://localhost:8000/${category}`); //mongodb://localhost:27017/         https://connectlnm-backend.onrender.com
           setData(response.data);
           setIsLoading(false);
         } catch (error) {
